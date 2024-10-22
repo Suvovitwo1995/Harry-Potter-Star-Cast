@@ -21,16 +21,6 @@ response
         continue;
       } else {
       }
-    //   console.log(data[item]);
-    //   ihtml += ` <div class="card" style="width: 23rem; margin: 4px;">
-    //       <img src="${data[item].image}" class="card-img-top" style="height: 300px;" alt="..." />
-    //       <div class="card-body text-center">  <!-- Center text -->
-    //         <h5 class="card-title">${data[item].name}</h5>
-    //         <div class="d-flex justify-content-center">  <!-- Center button -->
-    //           <button class="btn btn-primary" onclick="openModal('${data[item].image}', '${data[item].name}', '${data[item].house}', '${data[item].gender}', '${data[item].dateOfBirth}', '${data[item].eyeColour}', '${data[item].hairColour}', '${data[item].actor}'  )">Go somewhere</button>
-    //         </div>
-    //       </div>
-    //     </div>`;
 
         ihtml += `
         <div class="col-md-4 col-sm-6 mb-4"> <!-- Responsive Column -->
